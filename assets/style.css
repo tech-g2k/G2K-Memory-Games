@@ -139,10 +139,10 @@ body {
     color: #f26798;
 }
 .button.github:before {
-    background-color: #1f1f1f;
+    background-color: #008B8B;
 }
 .button.github .fab {
-    color: #1f1f1f;
+    color: #008B8B;
 }
 .button.instagram:before {
     background-color: #125688;
