@@ -12,3 +12,15 @@ google_plus_username: test
 dribbble_username: test
 github_username: test
 instagram_username: test
+
+# Memory games
+mg-colours-1 : https://tech-g2k.github.io/G2K-Memory-Games/Games/Colours-Part-1/
+mg-colours-2 : https://tech-g2k.github.io/G2K-Memory-Games/Games/Colours-Part-2/
+mg-jobs-1    : https://tech-g2k.github.io/G2K-Memory-Games/Games/Jobs-Part-1/
+mg-jobs-2    : https://tech-g2k.github.io/G2K-Memory-Games/Games/Jobs-Part-2/
+mg-months-1  : https://tech-g2k.github.io/G2K-Memory-Games/Games/Months-Part-1/
+mg-months-2  : https://tech-g2k.github.io/G2K-Memory-Games/Games/Months-Part-2/
+mg-numbers-1 : https://tech-g2k.github.io/G2K-Memory-Games/Games/Numbers-Part-1/
+mg-numbers-2 : https://tech-g2k.github.io/G2K-Memory-Games/Games/Numbers-Part-2/
+mg-times-1   : https://tech-g2k.github.io/G2K-Memory-Games/Games/Times-Part-1/
+mg-times-2   : https://tech-g2k.github.io/G2K-Memory-Games/Games/Times-Part-2/
