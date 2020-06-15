@@ -1,0 +1,68 @@
+---
+# Index
+---
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"> -->
+    <!-- <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}"> -->
+    <link rel="stylesheet" href="{{ "/assets/neon.css" | relative_url }}">
+  </head>
+<body>
+    <section class="section">
+        <h1 class="name">
+            {% if site.name %}
+                {{ site.name }}
+            {% endif %}
+        </h1>
+        <h3 class="description">
+            {% if site.description %}
+                {{ site.description }}
+            {% endif %}
+            Months
+        </h3>
+        <p><br><br></p>
+
+        <div class="container">
+            <a href="https://tech-g2k.github.io/G2K-Memory-Games/Months-Part-1/" class="btn">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Months Game Part 1
+            </a>
+
+            <p><br></p>
+    
+            <a href="https://tech-g2k.github.io/G2K-Memory-Games/Months-Part-2/" class="btn">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Months Game Part 2
+            </a>
+        </div>
+    </section>
+
+    {% if site.unsplash_client_id %}
+        <script>
+            var client_id = '{{ site.unsplash_client_id }}';
+            fetch('https://api.unsplash.com/photos/random?client_id=' + client_id)
+                .then(function(response) {
+                    return response.json();
+                })
+                .then(function(json) {
+                    document.body.style.backgroundImage = 'url(' + json.urls.regular + ')';
+                })
+                .catch(function() {});
+        </script>
+    {% endif %}
+</body>
+</html>
+
+
+
+
