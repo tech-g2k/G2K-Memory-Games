@@ -2,6 +2,26 @@
   --bg-color: #031321;
   --primary-color: #2196f3;
   --secondary-color: #255784;
+  font-family: consolas, sans-serif;
+}
+
+.name {
+    color: #CB4E07;
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+    /*text-shadow: #fff 0px 0px 10px;*/
+}
+.description {
+    color: #CB4E07;
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    /*text-shadow: #fff 0px 0px 10px;*/
 }
 
 body{
@@ -33,7 +53,6 @@ body{
   border: 1px solid #3498db;
   background: none;
   padding: 10px 20px;
-  font-size: 20px;
   font-family: consolas, sans-serif;
   /*font-family: "montserrat";*/
   cursor: pointer;
@@ -41,7 +60,7 @@ body{
   transition: 0.8s;
   position: relative;
   letter-spacing: 5px;
-  font-size: 36px;
+  font-size: 28px;
   overflow: hidden;
   transition: 0.2s;
 }
@@ -90,52 +109,3 @@ body{
   height: 0%;
 }
 
-
-.btn span {
-  position: absolute;
-  display: block;
-}
-.btn span:nth-child(1) {
-  top: 0;
-  transform: translateX(-115%);
-  width: 100%;
-  height: 4px;
-  background: linear-gradient(90deg, transparent, var(--primary-color));
-}
-.btn:hover span:nth-child(1) {
-  transform: translateX(100%);
-  transition: 1s;
-}
-.btn span:nth-child(3) {
-  bottom: 0;
-  transform: translateX(100%);
-  width: 100%;
-  height: 4px;
-  background: linear-gradient(270deg, transparent, var(--primary-color));
-}
-.btn:hover span:nth-child(3) {
-  transform: translateX(-115%);
-  transition: 1s 0.5s;
-}
-.btn span:nth-child(2) {
-  right: 0;
-  transform: translateY(-130%);
-  width: 4px;
-  height: 100%;
-  background: linear-gradient(180deg, transparent, var(--primary-color));
-}
-.btn:hover span:nth-child(2) {
-  transform: translateY(100%);
-  transition: 1s 0.25s;
-}
-.btn span:nth-child(4) {
-  left: 0;
-  transform: translateY(100%);
-  width: 4px;
-  height: 100%;
-  background: linear-gradient(360deg, transparent, var(--primary-color));
-}
-.btn:hover span:nth-child(4) {
-  transform: translateY(-130%);
-  transition: 1s 0.75s;
-}
