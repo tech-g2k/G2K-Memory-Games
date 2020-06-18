@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: consolas, sans-serif;
+  text-align: center;
 }
 
 :root {
@@ -23,7 +24,7 @@ body {
 .name {
     color: #CB4E07;
     display: block;
-    text-align: center;
+    /*text-align: center;*/
     font-size: 3rem;
     line-height: 3rem;
     margin-bottom: 1rem;
@@ -33,7 +34,7 @@ body {
 .description {
     color: #CB4E07;
     display: block;
-    text-align: center;
+    /*text-align: center;*/
     font-size: 1.5rem;
     line-height: 1.5rem;
     margin-bottom: 1rem;
