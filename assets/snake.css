@@ -30,13 +30,18 @@ body{
 }
 
 .btn10{
-  top: 23%;
+  top: 20%;
   left: 50%;
 }
 .btn11{
-  top: 33%;
+  top: 30%;
   left: 50%;
 }
+.btn12{
+  top: 40%;
+  left: 50%;
+}
+
 .btn0{
   top: 25%;
   left: 35%;
