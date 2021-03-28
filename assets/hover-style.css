@@ -26,7 +26,7 @@
 
 body{
   margin: 0;
-  padding: 0;
+  padding: 3%;
   background: var(--bg-color);
 }
 
@@ -44,9 +44,10 @@ body{
 .anchor2:hover{
   color: #fff;
 }
+
 .container{
   text-align: center;
-  margin-top: 360px;
+  margin-top: 3px;
 }
 
 .btn{

@@ -1,0 +1,49 @@
+- title: Colours Part 1
+  link : /Games/Colours-Part-1/
+  class : btn btn1
+  anchor : anchor2
+
+- title: Colours Part 2
+  link : /Games/Colours-Part-2/
+  class : btn btn2
+  anchor : anchor2
+
+- title: Jobs Part 1
+  link : /Games/Jobs-Part-1
+  class : btn btn3
+  anchor : anchor1
+
+- title: Jobs Part 2
+  link : /Games/Jobs-Part-2
+  class : btn btn4
+  anchor : anchor1
+
+- title: Months Part 1
+  link : /Games/Months-Part-1
+  class : btn btn1
+  anchor : anchor2
+
+- title: Months Part 2
+  link : /Games/Months-Part-2
+  class : btn btn2
+  anchor : anchor2
+
+- title: Numbers Part 1
+  link : /Games/Numbers-Part-1
+  class : btn btn3
+  anchor : anchor1
+
+- title: Numbers Part 2
+  link : /Games/Numbers-Part-2
+  class : btn btn4
+  anchor : anchor1
+
+- title: Tell Time Part 1
+  link : /Games/Tell-Time-Part-1
+  class : btn btn1
+  anchor : anchor2
+
+- title: Tell Time Part 2
+  link : /Games/Tell-Time-Part-2
+  class : btn btn2
+  anchor : anchor2

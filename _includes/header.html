@@ -1,0 +1,12 @@
+<h1 class="name">
+    {% if site.name %}
+        {{ site.name }}
+    {% endif %}
+</h1>
+<h3 class="description">
+    {% if page.title %}
+        {{ page.title }}
+    {% elsif site.description %}
+        {{ site.description }}
+    {% endif %}
+</h3>
