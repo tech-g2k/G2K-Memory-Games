@@ -2,6 +2,9 @@
 name: G2K
 description: Memory Games
 
+baseurl: "/G2K-Memory-Games" # the subpath of your site, e.g. /blog/
+url: "https://tech-g2k.github.io" # the base hostname & protocol for your site
+
 # Unsplash
 unsplash_client_id:
 
