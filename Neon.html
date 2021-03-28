@@ -16,7 +16,7 @@ title: Memory Games Neon
 
         <div class="buttons">
             {% for item in site.data.games %}
-                <a class="btn" href={{ item.link }}>
+                <a class="btn" href={{ site.baseurl }}{{ item.link }}>
                     <span></span> <span></span> <span></span> <span></span>
                     {{ item.title }}
                 </a>

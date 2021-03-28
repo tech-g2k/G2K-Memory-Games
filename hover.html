@@ -18,7 +18,7 @@ title: Memory Games Hover
 
   {% for item in site.data.games-hover %}
     <button class="{{ item.class }}">
-      <a class="{{ item.anchor }}" href="{{ item.link }}">{{ item.title }}</a>
+      <a class="{{ item.anchor }}" href="{{ site.baseurl }}{{ item.link }}">{{ item.title }}</a>
     </button>
     {% assign rem = forloop.index | modulo : 2 %}
     {% if rem == 0 %}

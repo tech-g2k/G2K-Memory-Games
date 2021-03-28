@@ -15,7 +15,7 @@ title: G2K Memory Games Snake
         {% include header.html %}
 
         {% for item in site.data.games %}
-            <a class="{{ item.class }}" href={{ item.link }}>
+            <a class="{{ item.class }}" href={{ site.baseurl }}{{ item.link }}>
             <span></span> <span></span> <span></span> <span></span>
             {{ item.title }} </a>
         {% endfor %}

@@ -27,7 +27,7 @@
             <div class="buttons">
                 {% for item in site.data.games %}
                     {% if site.google_plus_username %}
-                        <a class="button google" href={{ item.link }}>{{ item.title }}</a>
+                        <a class="button google" href={{ site.baseurl }}{{ item.link }}>{{ item.title }}</a>
                     {% endif %}
                 {% endfor %}
             </div>
