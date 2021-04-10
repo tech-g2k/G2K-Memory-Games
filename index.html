@@ -1,6 +1,6 @@
 ---
 # Index
-title: Memory Games Icon
+title: Memory Games Neon
 ---
 <!DOCTYPE html>
 <html>
@@ -8,23 +8,21 @@ title: Memory Games Icon
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
-    <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
-  </head>
+    <link rel="stylesheet" href="{{ "/assets/neon.css" | relative_url }}">
+</head>
 <body>
-    <div class="container">
-        <section class="section">
-            {% include header.html %}
+    <section class="section">
+        {% include header.html %}
 
-            <div class="buttons">
-                {% for item in site.data.games %}
-
-                    {% if site.google_plus_username %}
-                        <a class="button google" href={{ site.baseurl }}{{ item.link }}>{{item.title}}</a>
-                    {% endif %}
-                {% endfor %}
-            </div>
-        </section>
-    </div>
+        <div class="buttons">
+            {% for item in site.data.games %}
+                <a class="btn" href={{ site.baseurl }}{{ item.link }}>
+                    <span></span> <span></span> <span></span> <span></span>
+                    {{ item.title }}
+                </a>
+            {% endfor %}
+        </div>
+    </section>
 </body>
 </html>
+
